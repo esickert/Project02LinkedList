@@ -8,13 +8,13 @@ public class Node {
 	private int item;
 	private Node next;
 	
-	public Node()	{                       // CONSTRUCTOR
+	public Node()	{                       // CONSTRUCTOR!!!!!
 //		this(0, null);                      // sets item = 0 and next to null???
 		item = 0;
 		next = null;
 	}
 	
-	public Node (int data, Node node)	{   // CONSTRUCTOR
+	public Node (int data, Node node)	{   // CONSTRUCTOR!!!!
 		setItem(data);                      // setItem is a method. Adds an integer to the item field
 		setNext(node);                      // setNext is a method. Adds the next node to the next field. No next node, next is null.
 	}
