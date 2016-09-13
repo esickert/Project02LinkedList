@@ -12,8 +12,6 @@ public class LinkedListClass {
    	Node two = new Node(345,three);
     Node one = new Node(123,two);
     
-    
-    System.out.println("This is SOOOOOO cool. My first linked list from scratch!!!!");
 //	 erich.setItem(666);
 //	 erich.setNext(null);
 	 
