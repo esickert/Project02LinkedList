@@ -33,7 +33,11 @@ public class Node {
 	
 	public void setNext(Node node)	{		// setter method
 		next = node;
-	} 	
+	} 
+	
+	public String toString () {             // redefine toString to print out data field.
+        return item + " ";
+	}	
 }
 
 
