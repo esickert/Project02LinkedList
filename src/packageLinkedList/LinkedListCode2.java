@@ -22,7 +22,7 @@ public class LinkedListCode2 {
 			System.out.print("Please enter another number: ");
 			num = scanner.nextInt(); 
 			if (num <= 0)	break;       //as long as num not equal to 0, get number
-			next = new Node(num, null);  //create a new node and set next to it.
+			next = new Node(num, null);  //create a new node and set next to it. This is one of the keys!!!
 			tail.setNext(next);  //set tail to point to the new last node
 			tail = next;
 		}
