@@ -41,7 +41,7 @@ public class Node {
 	} 
 	
 	public String toString () {             // redefine toString to print out data field.
-        return item + " " + next;
+        return item + " ";
 	}	
 }
 
