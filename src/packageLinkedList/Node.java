@@ -6,11 +6,16 @@ public class Node {
  */
 	
 	private int item;
+//	private String something; //screwing around with fields
+	private Node previous;    //screwing around with double linked list idea.
 	private Node next;
 	
+	
 	public Node()	{                       // CONSTRUCTOR!!!!!
-//		this(0, null);                      // sets item = 0 and next to null???
+//		this(0, null);                      // sets item = 0 and next to null??? weird syntax for me!!
 		item = 0;
+//		something = null;
+		previous = null;
 		next = null;
 	}
 	
@@ -36,7 +41,7 @@ public class Node {
 	} 
 	
 	public String toString () {             // redefine toString to print out data field.
-        return item + " ";
+        return item + " " + next;
 	}	
 }
 

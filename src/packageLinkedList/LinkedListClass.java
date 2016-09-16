@@ -29,7 +29,7 @@ public class LinkedListClass extends Stuff {
 	sample2.threeVariables();
 	
 	LinkedListCode3 sample3 = new LinkedListCode3();
-	sample3.hello();
+//	sample3.hello();
 			   	
 	    	
 }

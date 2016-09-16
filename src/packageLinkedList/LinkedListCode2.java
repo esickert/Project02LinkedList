@@ -18,10 +18,10 @@ public class LinkedListCode2 {
 		start = new Node(num,null);   //create first node
 		tail = start;  //setting tail to start values
 		// get more numbers
-		while (true)	{
+		while (true)	{ //this always loops. the boolean is always true
 			System.out.print("Please enter another number: ");
 			num = scanner.nextInt(); 
-			if (num <= 0)	break;       //as long as num not equal to 0, get number
+			if (num <= 0)	break;       //as long as num not equal to 0, get number. This will break out of the (true) loop.
 			next = new Node(num, null);  //create a new node and set next to it. This is one of the keys!!!
 			tail.setNext(next);  //set tail to point to the new last node
 			tail = next;
@@ -33,6 +33,9 @@ public class LinkedListCode2 {
 	 }
 	 System.out.println(tail);
 	 scanner.close();
+	 System.out.println("start = " + start);
+	 System.out.println(next);
+	 System.out.println(tail);
 	
 	
 	}
