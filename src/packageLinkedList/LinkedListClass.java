@@ -26,7 +26,7 @@ public class LinkedListClass extends Stuff {
 //**************************************************************************	
 
 	LinkedListCode2 sample2 = new LinkedListCode2();
-//	sample2.threeVariables();
+	sample2.threeVariables();
 	
 	LinkedListCode3 sample3 = new LinkedListCode3();
 	sample3.twoVariables();

@@ -32,7 +32,7 @@ public class LinkedListCode2 {
 	 	start = start.getNext();		 // THIS IS THE KEY HERE. EACH INTERATION REPLACES ONE WITH THE NEXT NODE.
 	 }
 	 System.out.println(tail);
-	 scanner.close();
+//	 scanner.close();   closes scanner.
 	 System.out.println("start = " + start);
 	 System.out.println(next);
 	 System.out.println(tail);
