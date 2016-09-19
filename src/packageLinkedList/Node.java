@@ -15,7 +15,7 @@ public class Node {
 //		this(0, null);                      // sets item = 0 and next to null??? weird syntax for me!!
 		item = 0;
 //		something = null;
-		previous = null;
+//		previous = null;
 		next = null;
 	}
 	
