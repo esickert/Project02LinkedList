@@ -14,15 +14,15 @@ public class LinkedListCode3 {
 		
 		if (num > 0)	{
 		
-			start = new Node(num,null);   //create the first nodein the linked list.
+			start = new Node(num,null);   //create the first node in the linked list.
 			tail = start; // both start and tail are equal to the same thing (pointing to the same thing???);
 		
 			while (true)	{     //always true
 				System.out.print("Please enter another number: ");
-				num = scanner.nextInt();
+				num = scanner.nextInt(); //get inout
 				if ( num <= 0) break;   //if num is less than 0, break out of while loop.
-				tail.setNext(new Node(num, null)); 
-				tail = tail.getNext(); 
+				tail.setNext(new Node(num, null)); //creates a new node beyond tail. we don't use next here.
+				tail = tail.getNext();  //sets tail equal to that new node 
 			}
 		}
 		System.out.println("You're numbers are: ");
