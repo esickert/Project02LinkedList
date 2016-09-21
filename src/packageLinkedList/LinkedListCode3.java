@@ -31,7 +31,7 @@ public class LinkedListCode3 {
 			System.out.print(start);
 	 		start = start.getNext();		 // THIS IS THE KEY HERE. EACH INTERATION REPLACES ONE WITH THE NEXT NODE.
 	 	}
-	 	System.out.println("start is " + start);
+	 	System.out.println("\nstart is " + start);
 	 	System.out.println("tail is " + tail);
 	 	scanner.close();
 
