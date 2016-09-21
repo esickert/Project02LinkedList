@@ -10,7 +10,8 @@ public class LinkedListCode3 {
 		int num = scanner.nextInt();
 		
 		Node start, tail;      //using only two variables.
-		start = null; 	       //if num is less that 0 (zero) the if statement will fail and program close with start null.
+		start = null;
+		tail = null; 	       //if num is less that 0 (zero) the if statement will fail and program close with start null.
 		
 		if (num > 0)	{
 		
@@ -30,8 +31,10 @@ public class LinkedListCode3 {
 			System.out.print(start);
 	 		start = start.getNext();		 // THIS IS THE KEY HERE. EACH INTERATION REPLACES ONE WITH THE NEXT NODE.
 	 	}
-	 	System.out.println(start);
+	 	System.out.println("start is " + start);
+	 	System.out.println("tail is " + tail);
 	 	scanner.close();
-	}
 
+	}
+	
 }
